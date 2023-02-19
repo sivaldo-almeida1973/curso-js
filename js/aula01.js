@@ -1,1 +1,0 @@
-alert('Uma alerta rodando de uma pagina externa!');
