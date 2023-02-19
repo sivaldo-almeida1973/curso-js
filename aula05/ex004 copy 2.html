@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu primeiro programa...</title>
+  <style>
+    body{
+      text-align: center;
+      background-color: beige;/* comentario em CSS*/
+      font: normal 2em arial;
+      color: rgb(31, 138, 231);
+
+    }
+    h1{
+      color: brown;
+    }
+  </style>
+</head>
+<body>
+ 
+  <!--comnetario em HTML-->
+  <p>Criando script interno!</p>
+  <h1>Comando prompt</h1>
+  <p>É usado para guardar dados e retorna uma string mesmo com numeros! <br><hr>
+  <p>Se quisermos que some dois numeros temos que converter de string para numero
+    <br>
+    Number.parseInt(n) ou parseInt  =(numero real)
+    <hr>
+    Number.parseFloat(n)  ou parseFloat =(ponto flutuante)
+  <p>Posso tambem converter de (numero),para (string) <br>
+  
+    String(n) ou N.toString()
+  
+  </p>
+
+  
+  <script>
+    
+    var n1 = Number.parseInt(window.prompt('Digite um numero int: '))
+    var n2 = Number.parseInt(window.prompt('Digite outro numero: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é: ' + s)
+
+    var n1 = Number.parseFloat(window.prompt('Digite um numero float: '))
+    var n2 = Number.parseFloat(window.prompt('Digite outro numero: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é: ' + s)
+
+    var n1 = Number(window.prompt('Digite um numero : '))
+    var n2 = Number(window.prompt('Digite outro numero: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é: ' + s)
+
+
+    var n1 = Number(window.prompt('Digite um numero : '))
+    var n2 = Number(window.prompt('Digite outro numero: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é: ' + String(s))
+
+
+  </script>
+  
+</body>
+</html>
