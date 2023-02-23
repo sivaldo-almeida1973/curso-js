@@ -20,13 +20,13 @@ function verificar(){
         img.setAttribute('src', 'img/criançaM.png')
       }else if (idade >= 10 && idade < 21){
         //Jovem
-        img.setAttribute('src', 'img/adolM.png')
+        img.setAttribute('src', 'img/astronauta.png')
       }else if( idade < 50){
         //adulto
         img.setAttribute('src', 'img/adultoM.png')
       }else {
         //idoso
-        img.setAttribute('src', 'img/idosoM.png')
+        img.setAttribute('src', 'img/lua.png')
       }
     }else if (fsex[1].checked){
       genero = 'Mulher'
